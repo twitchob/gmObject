@@ -1,11 +1,11 @@
-package com.zzy.GM0016;
+package com.zzy.GMT0016;
 
 import lombok.*;
 
 import java.io.Serializable;
 
 /**
- * @author zhangzhongyuan@szanfu.cn
+ * @author zzypersonally@gmail.com
  * @description 加密密钥对保护结构, 用来在KM->CA->RA之间传递加密密钥对 符合0016规范 6.4.10
  * @since 2023/10/8 10:19
  */

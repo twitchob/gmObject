@@ -1,8 +1,10 @@
-package com.af.ca.GM.GMT0014.caAndLDAP;
+package com.zzy.GMT0014.caAndLDAP;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.bouncycastle.asn1.*;
+import org.bouncycastle.asn1.ASN1GeneralizedTime;
+import org.bouncycastle.asn1.ASN1Integer;
+import org.bouncycastle.asn1.DEROctetString;
 import org.bouncycastle.asn1.x509.Certificate;
 
 /**

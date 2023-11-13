@@ -1,4 +1,4 @@
-package com.af.asn1.GMT0010;
+package com.zzy.GMT0010;
 
 import com.af.asn1.GMT0010.fundamentalType.DigestAlgorithmIdentifier;
 import com.af.asn1.GMT0010.fundamentalType.DigestEncryptionAlgorithmIdentifier;

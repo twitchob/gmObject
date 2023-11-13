@@ -1,4 +1,4 @@
-package com.af.ca.GM.GMT0014.caAndKm.respond;
+package com.zzy.GMT0014.caAndKm.respond;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

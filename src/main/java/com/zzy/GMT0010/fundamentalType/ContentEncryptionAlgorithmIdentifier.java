@@ -1,4 +1,4 @@
-package com.af.asn1.GMT0010.fundamentalType;
+package com.zzy.GMT0010.fundamentalType;
 
 import org.bouncycastle.asn1.ASN1EncodableVector;
 import org.bouncycastle.asn1.ASN1Object;

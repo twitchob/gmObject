@@ -1,4 +1,4 @@
-package com.af.ca.GM.GMT0014.caAndLDAP;
+package com.zzy.GMT0014.caAndLDAP;
 
 /**
  * @author zzypersonally@gmail.com

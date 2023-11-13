@@ -1,4 +1,4 @@
-package com.af.asn1.GMT0019;
+package com.zzy.GMT0019;
 
 
 import lombok.AllArgsConstructor;

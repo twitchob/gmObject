@@ -1,4 +1,4 @@
-package com.af.ca.GM.GMT0014.caAndKm.request;
+package com.zzy.GMT0014.caAndKm.request;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

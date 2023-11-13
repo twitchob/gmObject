@@ -1,4 +1,4 @@
-package com.zzy.GM0016;
+package com.zzy.GMT0016;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import lombok.Setter;
 import java.io.Serializable;
 
 /**
- * @author zhangzhongyuan@szanfu.cn
+ * @author zzypersonally@gmail.com
  * @description GM0016规范 6.4.6 ECC私钥结构
  * @since 2023/10/8 11:22
  */

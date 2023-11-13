@@ -1,12 +1,9 @@
-package com.af.asn1.GMT0019;
+package com.zzy.GMT0019;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.bouncycastle.asn1.ASN1Integer;
-import org.bouncycastle.asn1.ASN1Object;
-import org.bouncycastle.asn1.ASN1Primitive;
 
 import java.math.BigInteger;
 import java.security.interfaces.ECPrivateKey;
