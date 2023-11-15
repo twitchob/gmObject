@@ -11,19 +11,23 @@ import org.bouncycastle.jce.spec.ECPublicKeySpec;
 
 import java.math.BigInteger;
 import java.security.KeyFactory;
+import java.security.Security;
 
 /**
  * @author zzypersonally@gmail.com
- * @description 公钥格式有0018(256 + 64字节X + 64字节Y, 前32字节为0) BCEC(04+32字节X+32字节Y) 格式需要转换
+ * @description 公钥格式有0018(256 4个字节 + 64字节X + 64字节Y, 前32字节为0) BCEC (04+32字节x+32字节Y)格式需要转换
  * @since 2023/11/14 17:36
  */
 public class PublicKeyUtils {
 
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
 
     /**
-     * 0018公钥转  BCECPublicKey
+     * ECC 公钥转  BCECPublicKey
      */
-    public static BCECPublicKey publicKey0018ToBCECPublicKey(String publicKey) throws Exception {
+    public static BCECPublicKey eccToBCECPublicKey(String publicKey) throws Exception {
         byte[] decode = Base64.decode(publicKey);
         BigInteger x = BigIntegerUtil.toPositiveInteger(ArrayUtil.sub(decode, 1, 33));
         BigInteger y = BigIntegerUtil.toPositiveInteger(ArrayUtil.sub(decode, 33, 65));
@@ -31,9 +35,9 @@ public class PublicKeyUtils {
     }
 
     /**
-     * BCECPublicKey 转0018公钥
+     * BCECPublicKey 转 ECC公钥
      */
-    public static String bcecPublicKeyTo0018(BCECPublicKey publicKey) throws Exception {
+    public static String bcecPublicKeyToECC(BCECPublicKey publicKey) {
         org.bouncycastle.math.ec.ECPoint q = publicKey.getQ();
         byte[] x = q.getXCoord().getEncoded();
         byte[] y = q.getYCoord().getEncoded();
