@@ -1,8 +1,9 @@
 package com.zzy.GMT0010;
 
-import com.af.asn1.GMT0010.fundamentalType.CertificateRevocationLists;
-import com.af.asn1.GMT0010.fundamentalType.ExtendCertificateAndCertificate;
-import com.af.asn1.GMT0010.fundamentalType.Version;
+
+import com.zzy.GMT0010.fundamentalType.CertificateRevocationLists;
+import com.zzy.GMT0010.fundamentalType.ExtendCertificateAndCertificate;
+import com.zzy.GMT0010.fundamentalType.Version;
 import lombok.*;
 import org.bouncycastle.asn1.*;
 

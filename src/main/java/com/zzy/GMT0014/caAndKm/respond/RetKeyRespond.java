@@ -1,6 +1,6 @@
 package com.zzy.GMT0014.caAndKm.respond;
 
-import com.af.ca.GM.GMT0010.SignedAndEnvelopedData;
+import com.zzy.GMT0010.SignedAndEnvelopedData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.bouncycastle.asn1.*;

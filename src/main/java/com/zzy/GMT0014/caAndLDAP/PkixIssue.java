@@ -1,12 +1,12 @@
 package com.zzy.GMT0014.caAndLDAP;
 
 
-import com.af.securityAccess.asn1.x509.AlgorithmIdentifier;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.bouncycastle.asn1.ASN1Object;
 import org.bouncycastle.asn1.ASN1Primitive;
 import org.bouncycastle.asn1.ocsp.Signature;
+import org.bouncycastle.asn1.x509.AlgorithmIdentifier;
 
 /**
  * @author zzypersonally@gmail.com

@@ -1,7 +1,8 @@
 package com.zzy.GMT0010;
 
-import com.af.asn1.GMT0010.fundamentalType.KeyEncryptionAlgorithmIdentifier;
-import com.af.asn1.GMT0010.fundamentalType.Version;
+
+import com.zzy.GMT0010.fundamentalType.KeyEncryptionAlgorithmIdentifier;
+import com.zzy.GMT0010.fundamentalType.Version;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
